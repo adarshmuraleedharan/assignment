@@ -1,0 +1,220 @@
+*{
+  margin: 0px;
+}
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #222;
+  background: white;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+}
+.left{
+  width: 75%;
+}
+.right{
+  background-color: #f1f5fe;
+  background-image: url("./assets/bg.png");
+  padding: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.nav-ul{margin-left: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+
+.navbar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav{
+  display: flex;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 40px;
+  padding-bottom: 0px;
+}
+
+.hero-text {
+  max-width: 100%;
+}
+.hero .subtext{
+  color:#2D3134
+}
+
+.hero-text .main-text p{
+  width: 100%;
+}
+
+.hero-text .main-text{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ellipse {
+  position: relative;      
+  display: inline-block;    /* keeps container sized to background image */
+}
+
+.ellipse .first-img {
+  display: block;        /* adjust as needed */
+  height: auto;
+}
+
+.ellipse .second-img {
+  position: absolute;
+  top: 50%;                 /* move to vertical center */
+  left: 50%;                /* move to horizontal center */
+  transform: translate(-50%, -50%); /* adjust so it's perfectly centered */
+  width: 30px;             /* size of overlay image */
+  height: auto;
+}
+
+
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text .subtext {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.students {
+  display: flex;
+ 
+  margin-bottom: 20px;
+  align-items: center;
+
+}
+.students img{
+  width: 35px;
+}
+
+.student-text{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.student-text div{
+  margin: 0px;
+  padding: 0px;
+}
+.student-text-main{
+   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.left-img {
+  display: block;
+  width: 300px;         /* adjust as needed */
+  height: auto;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+  
+}
+
+.btn.primary {
+  background: #2F584E;
+  color: #fff;
+}
+
+.btn.secondary {
+  background: #eee;
+  color: #333;
+  display: flex;
+  gap: 2px;
+}
+
+.btn.secondary img{
+  height: 25px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 35px;
+  margin-top: 20px;
+  background-color: #FF9257;
+  height: 220px;
+}
+
+.stats div {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-left: 4px #f7be2c solid;
+}
+
+.stats div strong{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hero-images {
+  display: grid;
+  background-image: url("./assets/background.png");
+  
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 50px;
+}
+
+.hero-images img {
+  width: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
